@@ -11,7 +11,7 @@ to
     web: python app_bottle.py
 
 ###### Easter Eggs
-type __whoisthebestprez?__ in the fourground bar 
+type __whoisthebestprez?__ in the foreground bar 
 
 ###### quick note
 it is overkill to use 3 frameworks for this project, this is just a demo
