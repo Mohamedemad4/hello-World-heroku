@@ -11,6 +11,8 @@ app.controller("ctrl", function($scope,$timeout) {
     $scope.fg='white';
     $scope.bg='black';
     $scope.remove_text='CLICK HERE TO DESTROY';
+    if ($scope.fg=='whoisthebestprez?'){
+        $scope.vid='<iframe width="854" height="480" src="https://www.youtube.com/embed/ek73ebks39w?ecver=1" frameborder="0" allowfullscreen></iframe>';}
     $scope.remove=function(){
     $scope.remove_text=0;// sorry, But a Blocking Wait() function would have taken more code, looked ugly and completely unnecessary
     $timeout(function(){$scope.remove_text+=1},1000)
