@@ -12,7 +12,7 @@ app.controller("ctrl", function($scope,$timeout) {
     $scope.bg='black';
     $scope.remove_text='CLICK HERE TO DESTROY';
     $scope.remove=function(){
-    $scope.remove_text=0;// sorry, But a Blocking Wait() function would have taken more code, looked ugly and completely unnecessary
+    $scope.remove_text=0;// sorry, But a Blocking Wait() function would have taken more code, looked ugly and will be completely unnecessary
     $timeout(function(){$scope.remove_text+=1},1000)
     $timeout(function(){$scope.remove_text+=1},2000)
     $timeout(function(){$scope.remove_text+=1},3000)
